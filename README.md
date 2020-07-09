@@ -10,7 +10,7 @@ Primarily focused on interpretability
 2. What does the statistical techniques conclude about our data?
 3. Feature engineering
 4. What did the visualizations tell about our data?
-5. What features did I use?
+5. What features did we use?
 6. Evaluation metric
 7. What model was best fit?
 
