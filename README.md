@@ -4,12 +4,12 @@
 Primarily focused on interpretability
 
 
-## The area's in which I look to address are:
+## The area's in which we look to address are:
 
 1. How can this be used in the outside world?
-2. What does the statistical techniques conclude about my data?
+2. What does the statistical techniques conclude about our data?
 3. Feature engineering
-4. What did the visualizations tell about my data?
+4. What did the visualizations tell about our data?
 5. What features did I use?
 6. Evaluation metric
 7. What model was best fit?
@@ -18,7 +18,7 @@ Primarily focused on interpretability
 
 Seeing what factors create the most severe injury
 
-Predicting how severe an injury might be when contacting emergency services
+Emergency services predicting how severe an injury might be
 
 Creating more precautions for drivers
 
@@ -27,7 +27,7 @@ Creating more precautions for drivers
 Gathered Traffic Crashes dataset from Chicago data portal. We started with over 400,000 observations and 79 features
 
 
-## What does the statistical techniques conclude about my data?
+## What does the statistical techniques conclude about our data?
 
 
 
@@ -70,7 +70,7 @@ We reject the null. We then further explored and found that the most leathel car
 Created a feature called 'Risk rating'. To make this feature we used the 'Primary cause of accident' feature and assigned a risk rating between 0-5 to them based of their proportion to classes of injuries. However, this did not help our model therefore we decided to drop it.
 
 
-## What did the visualizations tell about my data?
+## What did the visualizations tell about our data?
 
 
 The graph below shows that the risk exposure to a certain classification based on age group
@@ -107,7 +107,7 @@ Image(filename= "fig.png")
 
 
 
-## What features did I use?
+## What features did we use?
 Independent variables: PERSON_TYPE, SEX, AGE, SAFETY_EQUIPMENT, AIRBAG_DEPLOYED, EJECTION, DRIVER_ACTION, DRIVER_VISION, PHYSICAL_CONDITION, BAC_RESULT, POSTED_SPEED_LIMIT, TRAFFIC_CONTROL_DEVICE, DEVICE_CONDITION, WEATHER_CONDITION, LIGHTING_CONDITION, FIRST_CRASH_TYPE, TRAFFICWAY_TYPE, ROADWAY_SURFACE_COND, ROAD_DEFECT, CRASH_TYPE, DAMAGE, PRIM_CONTRIBUTORY_CAUSE, SEC_CONTRIBUTORY_CAUSE, CRASH_HOUR, CRASH_DAY_OF_WEEK, CRASH_MONTH, prim, risk_rating
 
 Dependent Variable: INJURY_CLASSIFICATION
